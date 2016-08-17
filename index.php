@@ -13,7 +13,20 @@
 
 <body>
 <center>
-	
+
+<!-- Header -->
+<div class="container_outer">
+  <div class="container_inner">
+    <header>
+      <img src="images/logo.png" alt="Drive Foil Logo" class="logo">
+    </header>
+  </div>
+</div>
+
+<!-- Footer -->
+<?php include("inc/footer.inc.php"); ?>
 
 <!--js-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</center>
+</body>
