@@ -4,8 +4,7 @@
 <meta charset="UTF-8">
 <meta name="description" content="Carbon Fiber Surfboard Fins" />
 <meta name="viewport" content="width=device-width, initial-scale=1"><!-- media queries -->
-<!-- <link rel="shortcut icon" href="favicon.ico"> -->
-<title>Drive Foil</title>
+<link rel="shortcut icon" href="images/favicon.ico">
 </head>
  <!--css-->
 <link rel="stylesheet" type="text/css" href="css/drivefoil.css">
@@ -15,13 +14,7 @@
 <center>
 
 <!-- Header -->
-<div class="container_outer">
-  <div class="container_inner">
-    <header>
-      <img src="images/logo.png" alt="Drive Foil Logo" class="logo">
-    </header>
-  </div>
-</div>
+<?php include("inc/header.inc.php"); ?>
 
 <!-- Footer -->
 <?php include("inc/footer.inc.php"); ?>

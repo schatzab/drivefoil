@@ -9,7 +9,7 @@
 				<script language=javascript>
 				<!--
 				var contact = "email"
-				var email = "dave"
+				var email = "chelsea"
 				var emailHost = "drivefoil.com"
 				document.write("<a href=" + "mail" + "to:" + email + "@" + emailHost + "\">" + email + "@" + emailHost + "</a>")
 				//-->
@@ -26,10 +26,10 @@
 				</a>
 				<br><br>
 				<a href="https://www.facebook.com/drivefoil" target="_blank">
-					Facebook &nbsp; <!-- <img src="images/icon_linkedin.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em"> -->
+					Facebook &nbsp; <img src="images/icon_facebook.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em">
 				<br><br>
-				<a href="" target="_blank">
-					Twitter &nbsp; <!-- <img src="images/icon_linkedin.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em"> -->
+				<a href="https://twitter.com/DriveFoil" target="_blank">
+					Twitter &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/icon_twitter.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em">
 				</a>
 			</div>
 		</div>
