@@ -25,33 +25,28 @@ h2 { font-size: 110%; font-weight: normal; margin: 0; }
 h3 { color: white; font-size: 90%; font-weight: normal; }
 
 
-.container {
+.container {    /* ====== MAIN CONTAINER ====== */
   width: 100%;
-  border: 5px solid green;
+  min-height: 100%;
+  overflow: hidden;
 }
-.primary {
+.content {     /* ====== CONTENT ====== */
   float: left;
  	padding: 0;
+  margin: 0;
   height: 100%;
+  width: 89%;
   border: 0px solid red;
-  background: $lightGrey;
 }
-header {
-  width: 100%;
-  height: 5em; /* change this */
-  padding: 2em;
-}
-
-
-/* ====== NAV ====== */
-.nav {
-  width: 10em;
+.nav {    /* ====== NAVIGATION ====== */
+  float: left;
+  width: 5%;
   background: $red;
   min-height: 100%; 
   padding: 0.5em 3em;
   color: white;
   font-size: 80%;
-  float: left;
+  border: 0px solid green;
 }
 .nav a { color: white; }
 .nav_1 {  }
@@ -59,6 +54,13 @@ header {
 .nav_3 { }
 .nav_4 { }
 .nav_5 { }
+
+.logo {
+  width: 10em;
+  height: auto;
+  float: left;
+  margin: 2em;
+}
 
 /* ====== FOOTER ====== */
 

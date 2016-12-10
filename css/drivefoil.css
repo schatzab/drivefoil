@@ -48,34 +48,39 @@ h3 {
   font-weight: normal; }
 
 .container {
+  /* ====== MAIN CONTAINER ====== */
   width: 100%;
-  border: 5px solid green; }
+  min-height: 100%;
+  overflow: hidden; }
 
-.primary {
+.content {
+  /* ====== CONTENT ====== */
   float: left;
   padding: 0;
+  margin: 0;
   height: 100%;
-  border: 0px solid red;
-  background: #f8f8f8; }
+  width: 89%;
+  border: 0px solid red; }
 
-header {
-  width: 100%;
-  height: 5em;
-  /* change this */
-  padding: 2em; }
-
-/* ====== NAV ====== */
 .nav {
-  width: 10em;
+  /* ====== NAVIGATION ====== */
+  float: left;
+  width: 5%;
   background: #c62229;
   min-height: 100%;
   padding: 0.5em 3em;
   color: white;
   font-size: 80%;
-  float: left; }
+  border: 0px solid green; }
 
 .nav a {
   color: white; }
+
+.logo {
+  width: 10em;
+  height: auto;
+  float: left;
+  margin: 2em; }
 
 /* ====== FOOTER ====== */
 .footer_main_container {
