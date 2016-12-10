@@ -13,9 +13,11 @@
 <body>
 <center>
 
-<!-- Header -->
-<?php include("inc/header.inc.php"); ?>
-<?php include("inc/nav.inc.php"); ?>
+<!-- Primary Structure -->
+<div class="container">
+	<?php include("inc/nav.inc.php"); ?>
+	<?php include("inc/primary.inc.php"); ?>
+</div>
 
 <!-- Footer -->
 <?php include("inc/footer.inc.php"); ?>

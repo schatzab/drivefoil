@@ -47,18 +47,16 @@ h3 {
   font-size: 90%;
   font-weight: normal; }
 
-.container_outer {
+.container {
   width: 100%;
+  border: 5px solid green; }
+
+.primary {
+  float: left;
   padding: 0;
   height: 100%;
   border: 0px solid red;
   background: #f8f8f8; }
-
-.container_inner {
-  width: 80%;
-  margin: 0 auto;
-  border: 0px solid pink;
-  background: white; }
 
 header {
   width: 100%;
@@ -67,22 +65,17 @@ header {
   padding: 2em; }
 
 /* ====== NAV ====== */
-.nav_bar {
-  /* width: 100%; was causing horz scroll */
+.nav {
+  width: 10em;
   background: #c62229;
-  min-height: 30px;
+  min-height: 100%;
   padding: 0.5em 3em;
   color: white;
-  font-size: 80%; }
-
-.nav_bar a {
-  color: white; }
-
-.nav_bar_left {
+  font-size: 80%;
   float: left; }
 
-.nav_bar_right {
-  text-align: right; }
+.nav a {
+  color: white; }
 
 /* ====== FOOTER ====== */
 .footer_main_container {
