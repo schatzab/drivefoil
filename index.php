@@ -15,6 +15,7 @@
 
 <!-- Header -->
 <?php include("inc/header.inc.php"); ?>
+<?php include("inc/nav.inc.php"); ?>
 
 <!-- Footer -->
 <?php include("inc/footer.inc.php"); ?>
