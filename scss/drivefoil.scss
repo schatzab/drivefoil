@@ -1,6 +1,8 @@
 /* Drive Foil */
 
 $red: #c62229;
+$lightRed: #fa4b52;
+$darkRed: #990209;
 $lightGrey: #f8f8f8;
 
 
@@ -30,6 +32,9 @@ h3 { color: white; font-size: 90%; font-weight: normal; }
   min-height: 100%;
   /* overflow: hidden; */
 }
+
+
+
 .content {     /* ====== CONTENT ====== */
   float: left;
  	padding: 0;
@@ -38,23 +43,6 @@ h3 { color: white; font-size: 90%; font-weight: normal; }
   width: 89%;
   border: 0px solid red;
 }
-.nav {    /* ====== NAVIGATION ====== */
-  float: left;
-  width: 5%;
-  background: $red;
-  min-height: 100%; 
-  padding: 0.5em 3em;
-  color: white;
-  font-size: 80%;
-  border: 0px solid green;
-}
-.nav a { color: white; }
-.nav_box { 
-  padding: 2em 0; 
-  border-bottom: 1px solid white; 
-}
-
-
 .logo {
   width: 10em;
   height: auto;
@@ -62,9 +50,25 @@ h3 { color: white; font-size: 90%; font-weight: normal; }
   margin: 2em;
 }
 
+
+.nav {    /* ====== NAVIGATION ====== */
+  float: left;
+  background: $red;
+  color: white;
+  font-size: 80%;
+}
+.nav a { color: white; }
+.nav_box { 
+  padding: 1.5em;
+  border-bottom: 1px solid $lightRed;
+  background: $red;
+}
+.nav_box:hover { background: $darkRed;  }
+
+
 /* ====== FOOTER ====== */
 
-.footer_main_container { border: 1px solid green; width: 100%; margin: 0 0 0 0; overflow: hidden; position: relative; }
+.footer_main_container { width: 100%; margin: 0 0 0 0; overflow: hidden; position: relative; }
 .footer_main_container_inner { overflow: hidden; width: 60%; margin: 5em auto; color: #d4d4d4; }
 .footer_main_box { 
 	width: 30%; 

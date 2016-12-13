@@ -62,33 +62,32 @@ h3 {
   width: 89%;
   border: 0px solid red; }
 
-.nav {
-  /* ====== NAVIGATION ====== */
-  float: left;
-  width: 5%;
-  background: #c62229;
-  min-height: 100%;
-  padding: 0.5em 3em;
-  color: white;
-  font-size: 80%;
-  border: 0px solid green; }
-
-.nav a {
-  color: white; }
-
-.nav_box {
-  padding: 2em 0;
-  border-bottom: 1px solid white; }
-
 .logo {
   width: 10em;
   height: auto;
   float: left;
   margin: 2em; }
 
+.nav {
+  /* ====== NAVIGATION ====== */
+  float: left;
+  background: #c62229;
+  color: white;
+  font-size: 80%; }
+
+.nav a {
+  color: white; }
+
+.nav_box {
+  padding: 1.5em;
+  border-bottom: 1px solid #fa4b52;
+  background: #c62229; }
+
+.nav_box:hover {
+  background: #990209; }
+
 /* ====== FOOTER ====== */
 .footer_main_container {
-  border: 1px solid green;
   width: 100%;
   margin: 0 0 0 0;
   overflow: hidden;
