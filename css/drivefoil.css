@@ -51,7 +51,7 @@ h3 {
   /* ====== MAIN CONTAINER ====== */
   width: 100%;
   min-height: 100%;
-  overflow: hidden; }
+  /* overflow: hidden; */ }
 
 .content {
   /* ====== CONTENT ====== */
@@ -76,6 +76,10 @@ h3 {
 .nav a {
   color: white; }
 
+.nav_box {
+  padding: 2em 0;
+  border-bottom: 1px solid white; }
+
 .logo {
   width: 10em;
   height: auto;
@@ -84,7 +88,7 @@ h3 {
 
 /* ====== FOOTER ====== */
 .footer_main_container {
-  background-color: white;
+  border: 1px solid green;
   width: 100%;
   margin: 0 0 0 0;
   overflow: hidden;
