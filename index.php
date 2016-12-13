@@ -15,8 +15,12 @@
 
 <!-- Primary Structure -->
 <div class="container">
-	<?php include("inc/nav.inc.php"); ?>
-	<?php include("inc/content.inc.php"); ?>
+	<div class="container_left">
+		<?php include("inc/nav.inc.php"); ?>
+	</div>
+	<div class="container_right">
+		<?php include("inc/content.inc.php"); ?>
+	</div>
 </div>
 
 <!--js-->
