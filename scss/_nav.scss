@@ -1,0 +1,14 @@
+/* ====== NAVIGATION ====== */
+
+.nav {    
+  float: left;
+  color: white;
+  font-size: 80%;
+  width: 100%;
+}
+.nav a { color: white; }
+.nav_box { 
+  padding: 1.5em;
+  border-bottom: 1px solid $lightRed;
+}
+.nav_box:hover { background: $darkRed;  }

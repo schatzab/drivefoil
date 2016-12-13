@@ -1,0 +1,30 @@
+
+/* == RESPONSIVE WEB DESIGN == */
+
+
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 950px) {
+
+}
+@media (max-width: 500px) {
+  .nav_box { padding: 1em; }
+  .container_left { width: 10%; }
+  .container_right { width: 84%; margin-left: 5%; }
+  .content_first h1 { text-align: left; right: 6%; font-size: 240%; top: 45%; }
+  .content_first h2 { text-align: left; right: 6%; top: 55%; font-size: 125%; }
+  .logo { width: 60%; margin: 2em 3em; }
+  .container_right { margin-left: 10%; width: 90%; }
+  .content { background: url("/images/content_main_smallest.jpg") no-repeat; }
+}
+@media (max-width: 250px) {
+  .nav_box { padding: 1em; }
+  .container_left { width: 10%; }
+  .container_right { width: 84%; margin-left: 5%; }
+  .content_first h1 { text-align: left; right: 6%; font-size: 240%; top: 45%; }
+  .content_first h2 { text-align: left; right: 6%; top: 55%; font-size: 125%; }
+  .logo { width: 60%; margin: 2em 3em; }
+  .container_right { margin-left: 10%; width: 90%; }
+  .content { background: url("/images/content_main_smallest.jpg") no-repeat; }
+}
