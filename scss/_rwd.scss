@@ -19,6 +19,10 @@
   .content { background: url("/images/content_main_smallest.jpg") no-repeat; }
   .footer_main_container { display: inline-block; overflow: visible; padding: 0.5em; }
   .footer_main_box { float: none; width: 80%; padding: 0.5em 0; line-height: 1.5em; }
+  .content_second_l img { width: 100%; }
+  .content_second_l { float: none; width: 90%; }
+  .content_second_r { float: none; width: 90%; }
+  .content_second { margin: 2em 1.5em; display: inline-block; }
 }
 @media (max-width: 250px) {
   .nav_box { padding: 1em; }
@@ -31,4 +35,8 @@
   .content { background: url("/images/content_main_smallest.jpg") no-repeat; }
   .footer_main_container { display: inline-block; overflow: visible; padding: 0.5em; }
   .footer_main_box { float: none; width: 80%; padding: 0.5em 0; line-height: 1.5em; }
+  .content_second_l img { width: 100%; }
+  .content_second_l { float: none; width: 90%; }
+  .content_second_r { float: none; width: 90%; }
+  .content_second { margin: 2em 1.5em; display: inline-block; }
 }
