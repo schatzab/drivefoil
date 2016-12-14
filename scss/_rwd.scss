@@ -17,6 +17,8 @@
   .logo { width: 60%; margin: 2em 3em; }
   .container_right { margin-left: 10%; width: 90%; }
   .content { background: url("/images/content_main_smallest.jpg") no-repeat; }
+  .footer_main_container { display: inline-block; overflow: visible; padding: 0.5em; }
+  .footer_main_box { float: none; width: 80%; padding: 0.5em 0; line-height: 1.5em; }
 }
 @media (max-width: 250px) {
   .nav_box { padding: 1em; }
@@ -27,4 +29,6 @@
   .logo { width: 60%; margin: 2em 3em; }
   .container_right { margin-left: 10%; width: 90%; }
   .content { background: url("/images/content_main_smallest.jpg") no-repeat; }
+  .footer_main_container { display: inline-block; overflow: visible; padding: 0.5em; }
+  .footer_main_box { float: none; width: 80%; padding: 0.5em 0; line-height: 1.5em; }
 }

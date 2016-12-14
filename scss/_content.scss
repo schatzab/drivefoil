@@ -6,6 +6,12 @@
   width: 100%;
   background: url("/images/content_main.jpg") no-repeat;
 }
+.logo {
+  width: 10em;
+  height: auto;
+  float: left;
+  margin: 2em;
+}
 
 /* ====== CONTENT - First Section ====== */
 
@@ -25,17 +31,17 @@
   top: 11%;
 }
 
-.logo {
-  width: 10em;
-  height: auto;
-  float: left;
-  margin: 2em;
-}
 
 /* ====== CONTENT - Second Section ====== */
 
 .content_second { 
-  height: 55em;
-  color: white;
+  color: $darkGrey;
   position: relative;
+  margin: 5em 2em;
+  line-height: 2;
+  text-align: left;
+  overflow: hidden;
 }
+.content_second_l { float: left; width: 50%; } 
+.content_second_r { float: left; width: 40%; padding-left: 2em; }
+.content_second_header { font-size: 200%; } 

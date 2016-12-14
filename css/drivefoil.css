@@ -76,6 +76,12 @@ h3 {
   width: 100%;
   background: url("/images/content_main.jpg") no-repeat; }
 
+.logo {
+  width: 10em;
+  height: auto;
+  float: left;
+  margin: 2em; }
+
 /* ====== CONTENT - First Section ====== */
 .content_first {
   height: 55em;
@@ -92,17 +98,26 @@ h3 {
   right: 25%;
   top: 11%; }
 
-.logo {
-  width: 10em;
-  height: auto;
-  float: left;
-  margin: 2em; }
-
 /* ====== CONTENT - Second Section ====== */
 .content_second {
-  height: 55em;
-  color: white;
-  position: relative; }
+  color: #303030;
+  position: relative;
+  margin: 5em 2em;
+  line-height: 2;
+  text-align: left;
+  overflow: hidden; }
+
+.content_second_l {
+  float: left;
+  width: 50%; }
+
+.content_second_r {
+  float: left;
+  width: 40%;
+  padding-left: 2em; }
+
+.content_second_header {
+  font-size: 200%; }
 
 /* ====== NAVIGATION ====== */
 .nav {
@@ -124,40 +139,32 @@ h3 {
 /* ====== FOOTER ====== */
 .footer_main_container {
   width: 100%;
-  margin: 0 0 0 0;
+  margin: 0;
+  padding: 5em;
   overflow: hidden;
   position: relative;
   background-color: black; }
 
-.footer_main_container_inner {
-  overflow: hidden;
-  width: 60%;
-  margin: 5em auto;
+.footer_main_container a:hover {
   color: white; }
 
 .footer_main_box {
-  width: 30%;
+  width: 25%;
   float: left;
   margin: 0;
   padding: 0;
   text-align: left;
   line-height: 2em; }
 
-.footer_main_box_right {
-  float: right;
-  margin: 0;
-  padding: 0;
-  width: 30%;
-  text-align: left; }
-
 .footer_header {
-  font-size: 200%;
-  padding-bottom: 2em; }
+  font-size: 110%;
+  padding-bottom: 1em; }
 
 .footer_text {
   text-align: left;
   max-width: 13.5em;
-  min-height: 12em; }
+  min-height: 12em;
+  font-size: 80%; }
 
 a.footer_main_box {
   text-decoration: none;
@@ -175,10 +182,6 @@ a.footer_main_box:visited {
 
 a.footer_main_box:hover {
   text-decoration: none; }
-
-.footer_bottomline {
-  font-size: 80%;
-  margin: 0em 0 2em 0; }
 
 /* == RESPONSIVE WEB DESIGN == */
 @media (max-width: 500px) {
@@ -213,7 +216,18 @@ a.footer_main_box:hover {
     width: 90%; }
 
   .content {
-    background: url("/images/content_main_smallest.jpg") no-repeat; } }
+    background: url("/images/content_main_smallest.jpg") no-repeat; }
+
+  .footer_main_container {
+    display: inline-block;
+    overflow: visible;
+    padding: 0.5em; }
+
+  .footer_main_box {
+    float: none;
+    width: 80%;
+    padding: 0.5em 0;
+    line-height: 1.5em; } }
 @media (max-width: 250px) {
   .nav_box {
     padding: 1em; }
@@ -246,6 +260,17 @@ a.footer_main_box:hover {
     width: 90%; }
 
   .content {
-    background: url("/images/content_main_smallest.jpg") no-repeat; } }
+    background: url("/images/content_main_smallest.jpg") no-repeat; }
+
+  .footer_main_container {
+    display: inline-block;
+    overflow: visible;
+    padding: 0.5em; }
+
+  .footer_main_box {
+    float: none;
+    width: 80%;
+    padding: 0.5em 0;
+    line-height: 1.5em; } }
 
 /*# sourceMappingURL=drivefoil.css.map */
