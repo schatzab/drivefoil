@@ -1,9 +1,11 @@
 <!-- Footer -->
 <footer class="footer_main_container" id="contact" name="contact">
 	<div class="footer_main_container_inner">
+
+		<!-- Column One -->
 		<div class="footer_main_box">
-			<div class="footer_main_box_header">Contact</div>
-			<div class="footer_main_box_text">
+			<div class="footer_header">Contact</div>
+			<div class="footer_text">
 				Feel free to reach out with questions or pre-orders.
 				<br><br>
 				<script language=javascript>
@@ -18,9 +20,11 @@
 				<!-- <a href="tel:+15413505121">541-244-0097</a> -->
 			</div>
 		</div>
+
+		<!-- Column Two -->
 		<div class="footer_main_box_right">
-			<div class="footer_main_box_header">Profile Links</div>
-			<div class="footer_main_box_text">
+			<div class="footer_header">Profile Links</div>
+			<div class="footer_text">
 				<a href="https://www.instagram.com/drivefoil/" target="_blank">
 					Instagram &nbsp; <img src="images/icon_instagram.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em">
 				</a>
@@ -33,11 +37,32 @@
 				</a>
 			</div>
 		</div>
+	
+		<!-- Column Three -->
+		<div class="footer_main_box_right">
+			<div class="footer_header">Profile Links</div>
+			<div class="footer_text">
+				<a href="https://www.instagram.com/drivefoil/" target="_blank">
+					Instagram &nbsp; <img src="images/icon_instagram.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em">
+				</a>
+				<br><br>
+				<a href="https://www.facebook.com/drivefoil" target="_blank">
+					Facebook &nbsp; <img src="images/icon_facebook.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em">
+				<br><br>
+				<a href="https://twitter.com/DriveFoil" target="_blank">
+					Twitter &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/icon_twitter.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em">
+				</a>
+			</div>
+		</div>
+
+
+
 	</div>
-	<!-- Bottom Footer -->
+
+	<!-- Bottom Footer 
 	<div class="footer_main_container_inner">
-		<div class="footer_bottomline">Creation by <a href="http://www.chelseatown.com">Town Technology</a> &copy; <?php echo date("Y"); ?></div>
-	</div>
+		<div class="footer_bottomline">Made in the <img src="/images/icon_flag.jpg" alt="Made in the USA"> &nbsp; | &nbsp; Drive Foil, Inc. &copy; <?php echo date("Y"); ?></div>
+	</div>-->
 </footer>
 </body>
 </html>

@@ -1,7 +1,7 @@
 /* ====== FOOTER ====== */
 
-.footer_main_container { width: 100%; margin: 0 0 0 0; overflow: hidden; position: relative; }
-.footer_main_container_inner { overflow: hidden; width: 60%; margin: 5em auto; color: #d4d4d4; }
+.footer_main_container { width: 100%; margin: 0 0 0 0; overflow: hidden; position: relative; background-color: black; }
+.footer_main_container_inner { overflow: hidden; width: 60%; margin: 5em auto; color: white; }
 .footer_main_box { 
 	width: 30%; 
 	float: left; 
@@ -17,11 +17,11 @@
 	width: 30%;
 	text-align: left;
 }
-.footer_main_box_header {
+.footer_header {
 	font-size: 200%;
 	padding-bottom: 2em;
 }
-.footer_main_box_text {
+.footer_text {
 	text-align: left;
 	max-width: 13.5em;
 	min-height: 12em;
