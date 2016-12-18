@@ -48,7 +48,7 @@
 		<div class="footer_text">
 			Drive Foil, Inc. &copy; <?php echo date("Y"); ?>
 			<br>
-			Made in the <img src="/images/icon_flag.jpg" alt="Made in the USA">
+			Made in the &nbsp; <img src="/images/icon_flag.jpg" alt="Made in the USA" valign="-5">
 			<br>
 		</div>
 	</div>
