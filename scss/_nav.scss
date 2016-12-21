@@ -13,13 +13,19 @@
   padding: 1.5em;
   border-bottom: 1px solid $lightRed;
   cursor: pointer;
-}
-.nav_box:hover { 
-	background: $darkRed;  
+  overflow: hidden;
 }
 .nav_labels {
   display: none;
+  padding: 0 1em 0 0;
+  float: right;
 }
 .nav_labels.nav_labels_show {
 	display: inline;
+}
+.nav_box_img {
+	float: right;
+} 
+.nav_box:hover { 
+	background: $darkRed;  
 }

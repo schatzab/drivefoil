@@ -67,8 +67,8 @@ h3 {
   transition: width 0.5s; }
 
 #container_left.expand {
-  width: 10%;
-  /* transition for nav clicks */ }
+  width: 15%;
+  /* transition for nav clicks - change container_right.move_over accordingly */ }
 
 #container_right {
   float: left;
@@ -79,7 +79,7 @@ h3 {
   transition: transform 0.5s; }
 
 #container_right.move_over {
-  transform: translateX(5%);
+  transform: translateX(10%);
   /* moves main content right */ }
 
 /* ====== PARTIALS ====== */
@@ -145,16 +145,22 @@ h3 {
 .nav_box {
   padding: 1.5em;
   border-bottom: 1px solid #fa4b52;
-  cursor: pointer; }
-
-.nav_box:hover {
-  background: #990209; }
+  cursor: pointer;
+  overflow: hidden; }
 
 .nav_labels {
-  display: none; }
+  display: none;
+  padding: 0 1em 0 0;
+  float: right; }
 
 .nav_labels.nav_labels_show {
   display: inline; }
+
+.nav_box_img {
+  float: right; }
+
+.nav_box:hover {
+  background: #990209; }
 
 /* ====== FOOTER ====== */
 .footer_main_container {

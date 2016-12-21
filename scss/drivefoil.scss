@@ -50,7 +50,7 @@ h3 { color: white; font-size: 90%; font-weight: normal; }
   transition: width 0.5s;
 }
 #container_left.expand { 
-  width: 10%; /* transition for nav clicks */
+  width: 15%; /* transition for nav clicks - change container_right.move_over accordingly */
 }
 
 #container_right {
@@ -61,7 +61,7 @@ h3 { color: white; font-size: 90%; font-weight: normal; }
   transition: transform 0.5s;
 }
 #container_right.move_over {
-  transform: translateX(5%); /* moves main content right */
+  transform: translateX(10%); /* moves main content right */
 }
 
 
