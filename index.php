@@ -8,23 +8,24 @@
 </head>
  <!--css-->
 <link rel="stylesheet" type="text/css" href="css/drivefoil.css">
-<script src="https://www.google.com/jsapi" type="text/javascript"></script>
 
 <body>
 <center>
 
 <!-- Primary Structure -->
 <div class="container">
-	<div class="container_left">
+	<div id="container_left">
 		<?php include("inc/nav.inc.php"); ?>
 	</div>
-	<div class="container_right">
+	<div id="container_right">
 		<?php include("inc/content.inc.php"); ?>
 	</div>
 </div>
 
 <!--js-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://www.google.com/jsapi" type="text/javascript"></script> <!-- JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!-- JQuery -->
+<script src="js/nav.js" type="text/javascript"></script> <!-- Nav JS -->
 </center>
 </body>
 </html>

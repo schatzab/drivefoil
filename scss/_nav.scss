@@ -6,9 +6,20 @@
   font-size: 80%;
   width: 100%;
 }
-.nav a { color: white; }
+.nav a { 
+	color: white; 
+}
 .nav_box { 
   padding: 1.5em;
   border-bottom: 1px solid $lightRed;
+  cursor: pointer;
 }
-.nav_box:hover { background: $darkRed;  }
+.nav_box:hover { 
+	background: $darkRed;  
+}
+.nav_labels {
+  display: none;
+}
+.nav_labels.nav_labels_show {
+	display: inline;
+}
