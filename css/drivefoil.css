@@ -57,9 +57,8 @@ h3 {
 /* Nav */
 #container_left {
   float: left;
-  width: 5%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   z-index: 1001;
@@ -75,14 +74,13 @@ h3 {
 
 #container_right {
   float: left;
-  width: 94%;
-  margin-left: 5%;
+  margin-left: 4%;
   -webkit-transition: transform 0.5s;
   /* moves main content right */
   transition: transform 0.5s; }
 
 #container_right.move_over {
-  transform: translateX(10%);
+  transform: translateX(35%);
   /* moves main content right */ }
 
 /* ====== PARTIALS ====== */
@@ -158,6 +156,7 @@ h3 {
   float: right; }
 
 .nav_labels.nav_labels_show {
+  min-width: 200px;
   display: inline; }
 
 .nav_box_img {

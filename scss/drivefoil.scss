@@ -41,9 +41,8 @@ h3 { color: white; font-size: 90%; font-weight: normal; }
 /* Nav */
 #container_left { 
   float: left;
-  width: 5%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   z-index: 1001; /* one spot over the overlay for nav click */
@@ -58,13 +57,12 @@ h3 { color: white; font-size: 90%; font-weight: normal; }
 
 #container_right {
   float: left;
-  width: 94%;
-  margin-left: 5%;
+  margin-left: 4%;
   -webkit-transition: transform 0.5s; /* moves main content right */
   transition: transform 0.5s;
 }
 #container_right.move_over {
-  transform: translateX(10%); /* moves main content right */
+  transform: translateX(35%); /* moves main content right */
 }
 
 

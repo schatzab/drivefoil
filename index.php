@@ -29,6 +29,7 @@
 <script src="https://www.google.com/jsapi" type="text/javascript"></script> <!-- JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!-- JQuery -->
 <script src="js/nav.js" type="text/javascript"></script> <!-- Nav JS -->
+<script src="js/navScroll.js" type="text/javascript"></script> <!-- Nav Scroll JS -->
 </center>
 </body>
 </html>

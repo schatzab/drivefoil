@@ -1,12 +1,13 @@
 <div class="content">
-	<div class="content_first">
+	<div class="content_first" id="drive_foil_fins">
 		<a href="/"><img src="images/logo.png" alt="Drive Foil Logo" class="logo"></a>
 
 		<h1>Mathmatically Foiled</h1>
 		<h2>Fatten up your fins and sweeten your ride</h2>
+
 	</div>
 
-	<div class="content_second">
+	<div class="content_second" id="environment_friendly">
 		<div class="content_second_l">
 			<img src="/images/main_content_II.png">
 		</div>
