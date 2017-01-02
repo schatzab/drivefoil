@@ -14,7 +14,6 @@
 
 <!-- Primary Structure -->
 <div class="container">
-	<div id="overlay_for_nav"></div>
 
 	<div id="container_left">
 		<?php include("inc/nav.inc.php"); ?>
@@ -23,6 +22,8 @@
 		<?php include("inc/content.inc.php"); ?>
 	</div>
 </div>
+
+
 
 <!--js-->
 <script src="https://www.google.com/jsapi" type="text/javascript"></script> <!-- JavaScript -->
