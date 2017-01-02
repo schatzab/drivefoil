@@ -38,6 +38,7 @@ h3 { color: white; font-size: 90%; font-weight: normal; }
   position: relative;
 }
 
+/* Nav */
 #container_left { 
   float: left;
   width: 5%;
@@ -45,12 +46,23 @@ h3 { color: white; font-size: 90%; font-weight: normal; }
   position: absolute;
   left: 0;
   top: 0;
+  z-index: 1001; /* one spot over the overlay for nav click */
   background: $red;
   -webkit-transition: width 0.5s; /* transition for nav clicks */
   transition: width 0.5s;
 }
 #container_left.expand { 
-  width: 15%; /* transition for nav clicks - change container_right.move_over accordingly */
+  width: 15%; 
+  /* Widen side nav when clicked - change container_right.move_over accordingly */
+}
+#overlay_for_nav { /* transparent */
+  width: 100%; 
+  height: 100%; 
+  z-index: 1000; /* one spot under nav, but over main website */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  pointer-events: none; /* needed to click through */
 }
 
 #container_right {
