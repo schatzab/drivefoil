@@ -79,10 +79,6 @@ h3 {
   /* moves main content right */
   transition: transform 0.5s; }
 
-#container_right.move_over {
-  transform: translateX(35%);
-  /* moves main content right */ }
-
 /* ====== PARTIALS ====== */
 /* ====== CONTENT ====== */
 .content {
@@ -132,6 +128,28 @@ h3 {
   float: left; }
 
 .content_second_header {
+  font-size: 200%; }
+
+/* ====== CONTENT - Third Section ====== */
+.content_third {
+  background: #f8f8f8;
+  color: #303030;
+  position: relative;
+  padding: 5em 2em;
+  line-height: 2;
+  text-align: left;
+  overflow: hidden; }
+
+.content_third_r {
+  float: left;
+  padding: 5em 0 0 10em; }
+
+.content_third_l {
+  float: left;
+  width: 40%;
+  padding-left: 5em; }
+
+.content_third_header {
   font-size: 200%; }
 
 /* ====== NAVIGATION ====== */
@@ -213,6 +231,24 @@ a.footer_main_box:hover {
   text-decoration: none; }
 
 /* == RESPONSIVE WEB DESIGN == */
+@media (min-width: 1290px) {
+  .content {
+    background: url("/images/content_main.jpg") no-repeat; } }
+@media (max-width: 1290px) {
+  .content {
+    background: url("/images/content_main_med.jpg") no-repeat; }
+
+  .content_first h1 {
+    text-align: left;
+    right: 40%;
+    font-size: 280%;
+    top: 10%; }
+
+  .content_first h2 {
+    text-align: left;
+    right: 39%;
+    top: 18%;
+    font-size: 145%; } }
 @media (max-width: 500px) {
   .nav_box {
     padding: 1em; }

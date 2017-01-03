@@ -61,9 +61,6 @@ h3 { color: white; font-size: 90%; font-weight: normal; }
   -webkit-transition: transform 0.5s; /* moves main content right */
   transition: transform 0.5s;
 }
-#container_right.move_over {
-  transform: translateX(35%); /* moves main content right */
-}
 
 
 /* ====== PARTIALS ====== */

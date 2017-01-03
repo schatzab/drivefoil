@@ -2,11 +2,13 @@
 /* == RESPONSIVE WEB DESIGN == */
 
 
-@media (max-width: 1024px) {
-
+@media (min-width: 1290px) {
+  .content { background: url("/images/content_main.jpg") no-repeat; }
 }
-@media (max-width: 950px) {
-
+@media (max-width: 1290px) {
+  .content { background: url("/images/content_main_med.jpg") no-repeat; }
+  .content_first h1 { text-align: left; right: 40%; font-size: 280%; top: 10%; }
+  .content_first h2 { text-align: left; right: 39%; top: 18%; font-size: 145%; }
 }
 @media (max-width: 500px) {
   .nav_box { padding: 1em; }

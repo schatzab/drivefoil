@@ -46,3 +46,19 @@
 .content_second_r { float: left; width: 40%; padding-left: 2em; }
 .content_second_l { float: left; }
 .content_second_header { font-size: 200%; } 
+
+
+/* ====== CONTENT - Third Section ====== */
+
+.content_third { 
+  background: $lightGrey;
+  color: $darkGrey;
+  position: relative;
+  padding: 5em 2em;
+  line-height: 2;
+  text-align: left;
+  overflow: hidden;
+}
+.content_third_r { float: left; padding: 5em 0 0 10em; }
+.content_third_l { float: left; width: 40%; padding-left: 5em;  }
+.content_third_header { font-size: 200%; } 

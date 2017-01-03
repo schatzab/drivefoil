@@ -1,6 +1,10 @@
 <nav class="nav">
 
   <div class="nav_box">
+    <a href="#top" class="nav_labels"></a>
+  </div>
+
+  <div class="nav_box">
   	<img src="/images/icon_fin.png" class="nav_box_img">
   	<a href="#drive_foil_fins" class="nav_labels">Drive Foil Fins</a>
   </div>
