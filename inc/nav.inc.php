@@ -1,8 +1,6 @@
 <nav class="nav">
 
-  <div class="nav_box">
-    <a href="#top" class="nav_labels"></a>
-  </div>
+  <a href="#top"><div class="nav_box"><span class="nav_labels"></span></div></a>
 
   <div class="nav_box">
   	<img src="/images/icon_fin.png" class="nav_box_img">

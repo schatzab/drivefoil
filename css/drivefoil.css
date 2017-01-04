@@ -231,17 +231,19 @@ a.footer_main_box:hover {
   text-decoration: none; }
 
 /* == RESPONSIVE WEB DESIGN == */
+/* Large Screen Desktop */
 @media (min-width: 1290px) {
   .content {
     background: url("/images/content_main.jpg") no-repeat; } }
-@media (max-width: 1290px) {
+/* Laptop */
+@media (max-width: 1280px) and (min-width: 510px) {
   .content {
     background: url("/images/content_main_med.jpg") no-repeat; }
 
   .content_first h1 {
     text-align: left;
     right: 40%;
-    font-size: 280%;
+    font-size: 320%;
     top: 10%; }
 
   .content_first h2 {
@@ -249,7 +251,8 @@ a.footer_main_box:hover {
     right: 39%;
     top: 18%;
     font-size: 145%; } }
-@media (max-width: 500px) {
+/* Android Phone */
+@media (max-width: 500px) and (min-width: 251px) {
   .nav_box {
     padding: 1em; }
 
@@ -261,16 +264,17 @@ a.footer_main_box:hover {
     margin-left: 5%; }
 
   .content_first h1 {
-    text-align: left;
-    right: 6%;
-    font-size: 240%;
-    top: 45%; }
+    text-align: right;
+    right: 15%;
+    font-size: 280%;
+    top: 15%; }
 
   .content_first h2 {
-    text-align: left;
-    right: 6%;
-    top: 55%;
-    font-size: 125%; }
+    text-align: right;
+    right: 25%;
+    top: 25%;
+    font-size: 165%;
+    line-height: 1.5; }
 
   .logo {
     width: 60%;
