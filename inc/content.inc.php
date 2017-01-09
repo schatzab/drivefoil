@@ -30,10 +30,10 @@
 		<div class="content_third_l">
 			<div class="content_third_header">Reduce Waste</div>
 
-			One of the driving forces behind a Drive Foil fin is the fact that our fins are better for the environment.  The old process of creating resin blocks and shaving away excess material to form a fin produces more waste than is needed.  A Drive Foil fin is developed in an efficient build.  Once our fin is in your hands its durability will make your fin last longer, as well as make recycling and sharing a definite possibility.  
+			One of the driving forces behind a Drive Foil fin is the fact that our fins are better for the environment.  The old process of creating resin blocks and shaving away excess material to form a fin produces more waste than is needed and releases harmful chemicals into the air.  A Drive Foil fin is developed in an efficient build.  Once our fin is in your hands its durability will make your fin last longer, as well as make recycling and sharing a realistic possibility.  
 			<br><br>
 
-			Our building process helps eliminate harmful chemicals from the environment and creates safer production for manufacturers.
+			Our building process reduces manufacturing waste, environmental impact due to toxic chemicals and maximizes the performance of surfboards.
 		</div>
 
 		<div class="content_third_r">

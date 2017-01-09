@@ -16,9 +16,9 @@
 			<br>
 			<script language=javascript>
 			var contact = "email"
-			var email = "chelsea"
+			var name = "chelsea"
 			var emailHost = "drivefoil.com"
-			document.write("<a href=" + "mail" + "to:" + email + "@" + emailHost + "\">" + email + "@" + emailHost + "</a>")
+			document.write("<a href=" + "mail" + "to:" + name + "@" + emailHost + "\">" + name + "@" + emailHost + "</a>")
 			</script>
 		</div>
 	</div>
@@ -60,9 +60,9 @@
 			Coming soon.  Send email to 
 			<script language=javascript>
 			var contact = "email"
-			var email = "chelsea"
+			var name = "chelsea"
 			var emailHost = "drivefoil.com"
-			document.write("<a href=" + "mail" + "to:" + email + "@" + emailHost + "\">" + email + "@" + emailHost + "</a>")
+			document.write("<a href=" + "mail" + "to:" + name + "@" + emailHost + "\">" + name + "@" + emailHost + "</a>")
 			</script>
 		</div>
 	</div>
