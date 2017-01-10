@@ -40,10 +40,6 @@
 			<img src="/images/main_content_III.png">
 		</div>
 	</div>
-
-	<!-- Footer -->
-	<?php include("inc/footer.inc.php"); ?>
-
 </div>
 
 

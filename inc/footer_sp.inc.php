@@ -29,14 +29,14 @@
 		<div class="footer_header">PROFILE LINKS</div>
 		<div class="footer_text">
 			<a href="https://www.instagram.com/drivefoil/" target="_blank">
-				Instagram &nbsp; <img src="images/icon_instagram.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em">
+				Instagram &nbsp; <img src="../images/icon_instagram.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em">
 			</a>
 			<br><br>
 			<a href="https://www.facebook.com/drivefoil" target="_blank">
-				Facebook &nbsp; <img src="images/icon_facebook.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em">
+				Facebook &nbsp; <img src="../images/icon_facebook.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em">
 			<br><br>
 			<a href="https://twitter.com/DriveFoil" target="_blank">
-				Twitter &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/icon_twitter.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em">
+				Twitter &nbsp; &nbsp; &nbsp; &nbsp; <img src="../images/icon_twitter.png" style="width:30px; padding: 0 0 0 1.5em;" valign="-0.7em">
 			</a>
 		</div>
 	</div>
@@ -48,7 +48,7 @@
 		<div class="footer_text">
 			Drive Foil, Inc. &copy; <?php echo date("Y"); ?>
 			<br>
-			Made in the &nbsp; <img src="/images/icon_flag.jpg" alt="Made in the USA" valign="-5">
+			Made in the &nbsp; <img src="../images/icon_flag.jpg" alt="Made in the USA" valign="-5">
 			<br>
 		</div>
 	</div>
@@ -86,8 +86,8 @@
 <!--js-->
 <script src="https://www.google.com/jsapi" type="text/javascript"></script> <!-- JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!-- JQuery -->
-<script src="js/nav.js" type="text/javascript"></script> <!-- Nav JS -->
-<script src="js/navScroll.js" type="text/javascript"></script> <!-- Nav Scroll JS -->
+<script src="../js/nav.js" type="text/javascript"></script> <!-- Nav JS -->
+<script src="../js/navScroll.js" type="text/javascript"></script> <!-- Nav Scroll JS -->
 </center>
 </body>
 </html>

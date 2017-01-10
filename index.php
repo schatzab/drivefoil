@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="description" content="Carbon Fiber Surfboard Fins" />
-<meta name="viewport" content="width=device-width, initial-scale=1"><!-- media queries -->
-<link rel="shortcut icon" href="images/favicon.ico">
-</head>
- <!--css-->
-<link rel="stylesheet" type="text/css" href="css/drivefoil.css">
-
-<body>
-<center>
+<!-- Head -->
+<?php include("inc/head.inc.php"); ?>
 
 <!-- Primary Structure -->
 <div class="container">
@@ -23,13 +12,5 @@
 	</div>
 </div>
 
-
-
-<!--js-->
-<script src="https://www.google.com/jsapi" type="text/javascript"></script> <!-- JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!-- JQuery -->
-<script src="js/nav.js" type="text/javascript"></script> <!-- Nav JS -->
-<script src="js/navScroll.js" type="text/javascript"></script> <!-- Nav Scroll JS -->
-</center>
-</body>
-</html>
+<!-- Footer -->
+<?php include("inc/footer.inc.php"); ?>
