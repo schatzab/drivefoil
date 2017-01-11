@@ -1,8 +1,8 @@
-<div class="content" id="top">
-	<!-- Drive Foil Fins -->
-	<div class="content_second" id="drive_foil_fins">
-		<div class="content_second_l">
-			<div class="content_second_header">The online store is coming soon...</div>
+<!-- Online Shopping -->
+<div class="content_sp">
+	<div class="content_first">
+		<div class="content_second_header" style="color: black;">
+			<br><br>The online store is coming soon...
 		</div>
 	</div>
 </div>
