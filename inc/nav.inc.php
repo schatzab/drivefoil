@@ -12,14 +12,10 @@
    	<a href="/#environment_friendly" class="nav_labels">Environment Friendly</a>
   </div>
 
- <!--    <div class="nav_box">
-  	<img src="/images/icon_quotes.png" class="nav_box_img">
-   	<div class="nav_labels">Testimonials</div>
-  </div> -->
-
   <div class="nav_box">
   	<img src="/images/icon_cart.png" class="nav_box_img">
-   	<a href="/products/shop.php" class="nav_labels">Shop</a>
+    <!-- send Page ID -->
+    <a href="/sp.php?page=shop" class="nav_labels">Shop</a>
   </div>
 
   <div class="nav_box">
@@ -28,3 +24,5 @@
   </div>
 
 </nav>
+
+
