@@ -15,7 +15,7 @@
   <div class="nav_box">
   	<img src="/images/icon_cart.png" class="nav_box_img">
     <!-- send Page ID -->
-    <a href="/sp.php?page=shop" class="nav_labels">Shop</a>
+    <a href="/shop/" class="nav_labels">Shop</a>
   </div>
 
   <div class="nav_box">
